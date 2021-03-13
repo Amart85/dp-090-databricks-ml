@@ -90,7 +90,7 @@ To complete this exercise, you will need to deploy an Azure Databricks workspace
 
 1. If you have already created the table **nyc_taxi** in your workspace, you can skip to the section [Training and Validating a Machine Learning Model](#Training-and-Validating-a-Machine-Learning-Model).
 
-1. Select the link below and then **right-click + Save as** to download the data file to your local computer. Save the file as **csv**, and name it `nyc-taxi.csv`.
+1. Open the link below in a new browser tab and then **right-click + Save as** to download the data file to your local computer. Save the file as **csv**, and name it `nyc-taxi.csv`.
 
    [nyc-taxi.csv](https://github.com/MicrosoftLearning/dp-090-databricks-ml/blob/master/data/nyc-taxi.csv?raw=true)
 
