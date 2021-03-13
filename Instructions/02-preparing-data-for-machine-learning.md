@@ -70,7 +70,7 @@ To complete this exercise, you will need to deploy an Azure Databricks workspace
 
 1. Select the link below to download the `Databricks notebook archive` file to your local computer:
 
-   [02 - Training and Evaluating Machine Learning Models.dbc](TBD)
+   [02 - Training and Evaluating Machine Learning Models.dbc](https://github.com/MicrosoftLearning/dp-090-databricks-ml/blob/master/02%20-%20Training%20and%20Evaluating%20Machine%20Learning%20Models.dbc?raw=true)
 
 1. Within the Azure Databricks Workspace, using the command bar on the left, select **Workspace**, **Users** and select your username (the entry with house icon).
 
@@ -88,11 +88,11 @@ To complete this exercise, you will need to deploy an Azure Databricks workspace
 
 ### Upload the model training data
 
-1. If you have already created the table **nyc_taxi** in your workspace, you can skip to the section [Preparing Data for Machine Learning](#Preparing-data-for-machine-learning).
+1. If you have already created the table **nyc_taxi** in your workspace, you can skip to the section [Exercise: Preparing Data for Machine Learning](#Exercise-preparing-data-for-machine-learning).
 
 1. Select the link below and then **right-click + Save as** to download the data file to your local computer. Save the file as **csv**, and name it `nyc-taxi.csv`.
 
-   [nyc-taxi.csv](https://github.com/MicrosoftLearning/dp-090-databricks-ml/blob/master/data/nyc-taxi.csv?raw=True)
+   [nyc-taxi.csv](https://github.com/MicrosoftLearning/dp-090-databricks-ml/blob/master/data/nyc-taxi.csv?raw=true)
 
 1. Within the Azure Databricks Workspace, select **Import & Explore Data**.
 
@@ -117,7 +117,7 @@ To complete this exercise, you will need to deploy an Azure Databricks workspace
 
     ![Create new table](images/02-azure-databricks-create-table.png 'Create Table')
 
-## Preparing Data for Machine Learning
+## Exercise: Preparing Data for Machine Learning
 
 In this exercise, you will learn to prepare training data for machine learning purposes as shown in the notebook.
 

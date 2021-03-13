@@ -92,7 +92,7 @@ To complete this exercise, you will need to deploy an Azure Databricks workspace
 
 1. Select the link below and then **right-click + Save as** to download the data file to your local computer. Save the file as **csv**, and name it `nyc-taxi.csv`.
 
-   [nyc-taxi.csv](https://github.com/MicrosoftLearning/dp-090-databricks-ml/blob/master/data/nyc-taxi.csv?raw=True)
+   [nyc-taxi.csv](https://github.com/MicrosoftLearning/dp-090-databricks-ml/blob/master/data/nyc-taxi.csv?raw=true)
 
 1. Within the Azure Databricks Workspace, select **Import & Explore Data**.
 
