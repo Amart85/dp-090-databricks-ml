@@ -29,7 +29,7 @@ To complete this exercise, you will need to deploy an Azure Databricks workspace
    - **Resource Group**: Leave at Create new and provide a name for the new resource group.
    - **Location**: Select a location near you for deployment. For the list of regions supported by Azure Databricks, see [Azure services available by region](https://azure.microsoft.com/regions/services/).
    - **Workspace Name**: Provide a name for your workspace.
-   - **Pricing Tier**: Ensure `premium` is selected.
+   - **Pricing Tier**: Ensure `standard` is selected.
 
 1. Select **Review + create**.
 1. Select **Create**.
