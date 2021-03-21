@@ -82,7 +82,7 @@ The notebooks you will run depends on certain Python libraries that will need to
 
 1. Select the link below to download the `Databricks notebook archive` file to your local computer:
 
-   [04 - Integrating Azure Databricks and Azure Machine Learning.dbc](TBD)
+   [04 - Integrating Azure Databricks and Azure Machine Learning.dbc](https://github.com/MicrosoftLearning/dp-090-databricks-ml/blob/master/04%20-%20Integrating%20Azure%20Databricks%20and%20Azure%20Machine%20Learning.dbc?raw=true)
 
 1. Within the Azure Databricks Workspace, using the command bar on the left, select **Workspace**, **Users** and select your username (the entry with house icon).
 
@@ -131,7 +131,7 @@ The notebooks you will run depends on certain Python libraries that will need to
 
 ### Deploy an Azure Machine Learning workspace
 
-1. If you have already created an Azure Machine Learning workspace in your subscription, you can skip to the section [Running experiments in Azure Machine Learning](#Running-experiments-in-Azure-Machine-Learning).
+1. If you have already created an Azure Machine Learning workspace in your subscription, you can skip to the section [Exercise: Running experiments in Azure Machine Learning](#Exercise-Running-experiments-in-Azure-Machine-Learning).
 
 1. In the [Azure Portal](https://portal.azure.com/#home), select **+ Create a resource**, then type `Machine Learning` into the search bar.
 
@@ -150,7 +150,7 @@ The notebooks you will run depends on certain Python libraries that will need to
 
     ![Create Azure Machine Learning workspace](images/04-create-aml-ws-02.png 'Create AML workspace')
 
-##  Running experiments in Azure Machine Learning
+## Exercise: Running experiments in Azure Machine Learning
 
 In this exercise, you will learn to run experiments in Azure Machine Learning from Azure Databricks.
 
