@@ -1,10 +1,10 @@
 ---
 lab:
-    title: 'Training and Validating a Machine Learning Model'
+    title: 'Running experiments in Azure Machine Learning'
 ---
-# Training and Validating a Machine Learning Model
+# Running experiments in Azure Machine Learning
 
-Machine Learning is primarily about training models that you can use to provide predictive services to applications. In this exercise, you'll see how you can use Azure Databricks to train and validate a machine learning model. To begin, you need to have access to an Azure Databricks workspace with an interactive cluster. If you do not have a workspace and/or the required cluster, follow the instructions below. Otherwise, you can skip to the section [Upload the Databricks notebook archive](#Upload-the-Databricks-notebook-archive).
+Machine Learning is primarily about training models that you can use to provide predictive services to applications. In this exercise, you will learn to run experiments in Azure Machine Learning from Azure Databricks. To begin, you need to have access to an Azure Databricks workspace with an interactive cluster. If you do not have a workspace and/or the required cluster, follow the instructions below. Otherwise, you can skip to the section [Install libraries on the Azure Databricks Cluster](#Install-libraries-on-the-Azure-Databricks-Cluster).
 
 ## Unit Pre-requisites
 
@@ -16,7 +16,7 @@ Machine Learning is primarily about training models that you can use to provide 
 
 ## Create the required resources
 
-To complete this exercise, you will need to deploy an Azure Databricks workspace in your Azure subscription.
+To complete this exercise, you will need to deploy both Azure Databricks workspace and Azure Machine Learning workspace in your Azure subscription.
 
 ### Deploy an Azure Databricks workspace
 
@@ -64,13 +64,25 @@ To complete this exercise, you will need to deploy an Azure Databricks workspace
 
 1. Select **Create Cluster**.
 
+### Install libraries on the Azure Databricks Cluster
+
+The notebooks you will run depends on certain Python libraries that will need to be installed in your cluster. The following steps walk you through adding these dependencies.
+
+- From within the Azure Databricks workspace, from the `Clusters` section, select your cluster. Make sure the state of the cluster is `Running`.
+- Select the **Libraries** link and then select **Install New**.
+- In the Library Source, select **PyPi** and in the `Package` text box type `azureml-sdk[databricks]` and select **Install**.
+- Next install `sklearn-pandas==2.1.0`
+- Next install `azureml-mlflow`
+
+    ![Install library dialog](images/04-azure-databricks-install-library.png 'Install Library Dialog')
+
 ### Upload the Databricks notebook archive
 
-1. If you have already uploaded the Databricks notebook archive **02 - Training and Evaluating Machine Learning Models.dbc** to your workspace, you can skip to the section [Upload the model training data](#Upload-the-model-training-data).
+1. If you have already uploaded the Databricks notebook archive **04 - Integrating Azure Databricks and Azure Machine Learning.dbc** to your workspace, you can skip to the section [Upload the model training data](#Upload-the-model-training-data).
 
 1. Select the link below to download the `Databricks notebook archive` file to your local computer:
 
-   [02 - Training and Evaluating Machine Learning Models.dbc](TBD)
+   [04 - Integrating Azure Databricks and Azure Machine Learning.dbc](TBD)
 
 1. Within the Azure Databricks Workspace, using the command bar on the left, select **Workspace**, **Users** and select your username (the entry with house icon).
 
@@ -78,9 +90,9 @@ To complete this exercise, you will need to deploy an Azure Databricks workspace
 
     ![The Import menu item can be accessed by selecting your username from the list of users in the workspace.](images/02-azure-databricks-import-menu.png "Import Menu")
 
-1. On the Import Notebooks dialog, browse and open the `02 - Training and Evaluating Machine Learning Models.dbc` file from your local computer and then select **Import**.
+1. On the Import Notebooks dialog, browse and open the `04 - Integrating Azure Databricks and Azure Machine Learning.dbc` file from your local computer and then select **Import**.
 
-    ![Obtaining a zip archive of the repository to access the notebook for upload into the Databricks workspace.](images/02-azure-databricks-import-repository.png "Obtaining a local copy of the repository")
+    ![Obtaining a zip archive of the repository to access the notebook for upload into the Databricks workspace.](images/04-azure-databricks-import-repository.png "Obtaining a local copy of the repository")
 
 1. A folder named after the archive should appear. Select that folder.
 
@@ -88,7 +100,7 @@ To complete this exercise, you will need to deploy an Azure Databricks workspace
 
 ### Upload the model training data
 
-1. If you have already created the table **nyc_taxi** in your workspace, you can skip to the section [Training and Validating a Machine Learning Model](#Training-and-Validating-a-Machine-Learning-Model).
+1. If you have already created the table **nyc_taxi** in your workspace, you can skip to the section [Deploy an Azure Machine Learning workspace](#Deploy-an-Azure-Machine-Learning-workspace).
 
 1. Open the link below in a new browser tab and then **right-click + Save as** to download the data file to your local computer. Save the file as **csv**, and name it `nyc-taxi.csv`.
 
@@ -117,13 +129,42 @@ To complete this exercise, you will need to deploy an Azure Databricks workspace
 
     ![Create new table](images/02-azure-databricks-create-table.png 'Create Table')
 
-## Training and Validating a Machine Learning Model
+### Deploy an Azure Machine Learning workspace
 
-In this exercise, you will learn to train and validate a machine learning model that is provided in a notebook.
+1. If you have already created an Azure Machine Learning workspace in your subscription, you can skip to the section [Running experiments in Azure Machine Learning](#Running-experiments-in-Azure-Machine-Learning).
 
-1. Within the Azure Databricks Workspace, using the command bar on the left, select **Workspace**, **Users** and select your username (the entry with house icon). Open the folder named **02 - Training and Evaluating Machine Learning Models** to find the notebook **2.0 Train and Validate ML Model**.
+1. In the [Azure Portal](https://portal.azure.com/#home), select **+ Create a resource**, then type `Machine Learning` into the search bar.
 
-1. Then read the notes in the notebook, running each code cell in turn.
+1. Select the product **Machine Learning** and then select **Create**.
+
+    ![Create Azure Machine Learning workspace](images/04-create-aml-ws-01.png 'Create AML workspace')
+
+1. In the Create Machine Learning Workspace dialog that appears, provide the following values:
+
+   - **Subscription**: Choose your Azure subscription.
+   - **Resource group**: Select the resource group in which you deployed your Azure Databricks workspace.
+   - **Workspace Name**: `aml-ws`
+   - **Region**: Choose a region closest to you (it is OK if the Azure Databricks Workspace and the Azure Machine Learning Workspace are in different locations).
+
+1. Select **Review + Create** and then select **Create** when the form values passes validation.
+
+    ![Create Azure Machine Learning workspace](images/04-create-aml-ws-02.png 'Create AML workspace')
+
+##  Running experiments in Azure Machine Learning
+
+In this exercise, you will learn to run experiments in Azure Machine Learning from Azure Databricks.
+
+1. Within the Azure Databricks Workspace, using the command bar on the left, select **Workspace**, **Users** and select your username (the entry with house icon). Open the folder named **04 - Integrating Azure Databricks and Azure Machine Learning** to find the notebook **1.0 Running experiments in Azure Machine Learning**.
+
+1. Then read the notes in the notebook, running each code cell in turn. After completing the exercises in the notebook continue below to review the training metrics and artifacts for your experiment.
+
+1. From within the Azure Machine Learning studio, navigate to the **Experiments** tab, and open the experiment run that corresponds to the MLflow experiment. In the **Metrics** tab of the run, you will observe the model metrics that were logged via MLflow tracking APIs.
+
+    ![Model metrics](images/04-01-03-01-AML-metrics.png 'Model Metrics')
+
+1. Next, when you open the **Outputs + logs** tab you will observe the model artifacts that were logged via MLflow tracking APIs.
+
+    ![Model artifacts](images/04-01-03-01-AML-artifacts.png 'Model Artifacts')
 
 ## Clean-up
 
