@@ -93,27 +93,27 @@ To complete this exercise, you will need to deploy an Azure Databricks workspace
 
 ### Upload your data files
 
-1. If you have already created the table **nyc_taxi** in your workspace, you can skip to the section [Exercise: Working with Data in Azure Databricks](#Exercise-Working-with-Data-in-Azure-Databricks).
+1. If you have already created the table **sales** in your workspace, you can skip to the section [Exercise: Working with Data in Azure Databricks](#Exercise-Working-with-Data-in-Azure-Databricks).
 
-1. Open the link below in a new browser tab and then **right-click + Save as** to download the data file to your local computer. Save the file as **csv**, and name it `nyc-taxi.csv`.
+2. Open the link below in a new browser tab and then **right-click + Save as** to download the data file to your local computer. Save the file as **csv**, and name it `sales.csv`.
 
-   [nyc-taxi.csv](/data/nyc-taxi.csv?raw=true)
+   [sales.csv](/data/sales.csv?raw=true)
 
-1. Within the Azure Databricks Workspace, select **Import & Explore Data**.
+3. Within the Azure Databricks Workspace, select **Import & Explore Data**.
 
     ![Azure Databricks landing page](images/02-azure-databricks-landing-page.png 'Import & Explore Data')
 
-1. Upload the `nyc-taxi.csv` file from your local compute and then select **Create Table with UI**.
+4. Upload the `sales.csv` file from your local compute and then select **Create Table with UI**.
 
     ![Create new table page](images/02-azure-databricks-upload-file.png 'Create New Table')
 
-1. Select your cluster and then select **Preview Table**.
+5. Select your cluster and then select **Preview Table**.
 
     ![Create new table page](images/02-azure-databricks-preview-table.png 'Preview Table')
 
-1. Provide the following information then select **Create Table**.
+6. Provide the following information then select **Create Table**.
 
-    - **Table Name**: `nyc_taxi`
+    - **Table Name**: `sales_csv`
     - **File Type**: `csv`
     - **Column Delimiter**: `,`
     - **First row is header**: `checked`
@@ -121,6 +121,9 @@ To complete this exercise, you will need to deploy an Azure Databricks workspace
     - **Multi-line**: `unchecked`
 
     ![Create new table](images/02-azure-databricks-create-table.png 'Create Table')
+
+7. Repeat steps 1-6 for file [sales-telem.csv](/data/sales-telem.csv?raw=true). 
+Import it and create the `sales_telem_csv` table.
 
 
 ## Exercise: Working with Data in Azure Databricks
