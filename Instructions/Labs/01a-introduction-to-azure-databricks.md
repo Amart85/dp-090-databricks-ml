@@ -81,8 +81,7 @@ To complete this exercise, you will need to deploy an Azure Databricks workspace
 
 1. Select the links below to download the `Databricks notebook archive` files to your local computer:
 
-   [01a - Getting Started with Azure Databricks.dbc](/01a%20-%20Getting%20Started%20with%20Azure%20Databricks.dbc?raw=true)
-   [01b - Working with data in Azure Databricks.dbc](/01b%20-%20Working%20with%20data%20in%20Azure%20Databricks.dbc?raw=true)
+   [01 - Introduction to Azure Databricks.dbc](/01%20-%20Introduction%20to%20Azure%20Databricks.dbc?raw=true)
    [02 - Training and Evaluating Machine Learning Models.dbc](/02%20-%20Training%20and%20Evaluating%20Machine%20Learning%20Models.dbc?raw=true)
    [03 - Managing Experiments and Models.dbc](/03%20-%20Managing%20Experiments%20and%20Models.dbc?raw=true)
    [04 - Integrating Azure Databricks and Azure Machine Learning.dbc](/04%20-%20Integrating%20Azure%20Databricks%20and%20Azure%20Machine%20Learning.dbc?raw=true)
