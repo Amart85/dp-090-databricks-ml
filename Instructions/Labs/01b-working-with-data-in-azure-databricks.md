@@ -12,61 +12,9 @@ To begin, you need to have access to an Azure Databricks workspace with an inter
 
 ## Unit Pre-requisites
 
-**Microsoft Azure Account**: You will need a valid and active Azure account for the Azure labs. If you do not have one, you can sign up for a [free trial](https://azure.microsoft.com/free/)
+Assuming you have completed the previous lab, you have a working setup already. A cluster is available and your workspace exists.
 
-- If you are a Visual Studio Active Subscriber, you are entitled to Azure credits per month. You can refer to this [link](https://azure.microsoft.com/pricing/member-offers/credit-for-visual-studio-subscribers/) to find out more including how to activate and start using your monthly Azure credit.
-
-- If you are not a Visual Studio Subscriber, you can sign up for the FREE [Visual Studio Dev Essentials](https://www.visualstudio.com/dev-essentials/) program to create Azure free account (includes 1 year of free services, $200 for 1st month).
-
-## Create the required resources
-
-To complete this exercise, you will need to deploy an Azure Databricks workspace in your Azure subscription.
-
-### Deploy an Azure Databricks workspace
-
-1. Click the following button to open the Azure Resource Manager template in the Azure Portal.
-   [Deploy Databricks from the Azure Resource Manager Template](https://portal.azure.com/#create/Microsoft.Template/uri/https%3A%2F%2Fraw.githubusercontent.com%2FAzure%2Fazure-quickstart-templates%2Fmaster%2F101-databricks-workspace%2Fazuredeploy.json)
-
-1. Provide the required values to create your Azure Databricks workspace:
-
-   - **Subscription**: Choose the Azure Subscription in which to deploy the workspace.
-   - **Resource Group**: Leave at Create new and provide a name for the new resource group.
-   - **Location**: Select a location near you for deployment. For the list of regions supported by Azure Databricks, see [Azure services available by region](https://azure.microsoft.com/regions/services/).
-   - **Workspace Name**: Provide a name for your workspace.
-   - **Pricing Tier**: Ensure `standard` is selected.
-
-1. Select **Review + create**.
-1. Select **Create**.
-1. The workspace creation takes a few minutes. During workspace creation, the portal displays the Submitting deployment for Azure Databricks tile on the right side. You may need to scroll right on your dashboard to see the tile. There is also a progress bar displayed near the top of the screen. You can watch either area for progress.
-
-### Create a cluster
-
-1. When your Azure Databricks workspace creation is complete, select the link to go to the resource.
-
-1. Select **Launch Workspace** to open your Databricks workspace in a new tab.
-
-1. In the left-hand menu of your Databricks workspace, select **Clusters**.
-
-1. Select **Create Cluster** to add a new cluster.
-
-    ![The create cluster page](images/02-azure-databricks-create-cluster.png 'Create New Cluster Dialog')
-
-1. Enter a name for your cluster. Use your name or initials to easily differentiate your cluster from your coworkers.
-
-1. Select the **Databricks RuntimeVersion**: **Runtime: 7.3 LTS ML (Scala 2.12, Spark 3.0.1)** (remember to select the **ML** version).
-
-1. Select the values for the cluster configuration.
-    - **Enable autoscaling**: **Uncheck** this option.
-
-    - **Auto Termination**: Leave **checked** and in the text box enter `120`.
-
-    - **Worker Type**: **Standard_DS3_v2**
-
-    - **Workers**: `1`
-
-    - **Driver Type**: **Same as worker**
-
-1. Select **Create Cluster**.
+To add code and data, follow the steps below.
 
 ### Upload the Databricks notebook archive
 
@@ -93,7 +41,7 @@ To complete this exercise, you will need to deploy an Azure Databricks workspace
 
 1. If you have already created the table **sales** in your workspace, you can skip to the section [Exercise: Working with Data in Azure Databricks](#Exercise-Working-with-Data-in-Azure-Databricks).
 
-2. Open the link below in a new browser tab and then **right-click + Save as** to download the data file to your local computer. Save the file as **csv**, and name it `sales.csv`.
+2. Open the link below in a new browser tab and then **right-click + Save as** to download the data file to your local computer. Save the file as **csv**, make sure to explicitly add the csv extension, name it `sales.csv`.
 
    [sales.csv](/data/sales.csv?raw=true)
 
