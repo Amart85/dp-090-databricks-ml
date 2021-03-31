@@ -57,15 +57,10 @@ To complete this exercise, you will need to deploy an Azure Databricks workspace
 1. Select the **Databricks RuntimeVersion**: **Runtime: 8.1 LTS ML (Scala 2.12, Spark 3.1.1)** (remember to select the **ML** version).
 
 1. Select the values for the cluster configuration.
-    - **Enable autoscaling**: **Uncheck** this option.
 
-    - **Auto Termination**: Leave **checked** and in the text box enter `120`.
+    - **Terminate after**: Leave **checked** and in the text box enter `120`.
 
-    - **Worker Type**: **Standard_DS3_v2**
-
-    - **Workers**: `1`
-
-    - **Driver Type**: **Same as worker**
+    - **Node Type**: **Standard_DS3_v2**
 
 1. Select **Create Cluster**.
 
