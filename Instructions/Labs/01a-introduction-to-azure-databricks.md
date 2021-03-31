@@ -23,19 +23,32 @@ To complete this exercise, you will need to deploy an Azure Databricks workspace
 
 ### Deploy an Azure Databricks workspace
 
-1. Click the following button to open the Azure Resource Manager template in the Azure Portal.
-   [Deploy Databricks from the Azure Resource Manager Template](https://portal.azure.com/#create/Microsoft.Template/uri/https%3A%2F%2Fraw.githubusercontent.com%2FAzure%2Fazure-quickstart-templates%2Fmaster%2F101-databricks-workspace%2Fazuredeploy.json)
+1. Go to the the [Azure Portal](https://portal.azure.com). Click on the `Create a resource` button.
 
-1. Provide the required values to create your Azure Databricks workspace:
+![Creating the Azure Databricks resource](images/00a-create-adb-resource.png 'Creating the Azure Databricks resource')
+
+1. The `New` window appears. Enter the type of your resource. Type `Azure Databricks`, then press Enter.
+
+![Creating the Azure Databricks resource](images/00b-create-adb-resource.png 'Creating the Azure Databricks resource')
+
+1. The `Azure Databricks` window appears. Click on the `Create` button.
+
+![Creating the Azure Databricks resource](images/00c-create-adb-resource.png 'Creating the Azure Databricks resource')
+
+1. The `Create an Azure Databricks workspace` window appears. Configure your new Databricks resource as follows:
 
    - **Subscription**: Choose the Azure Subscription in which to deploy the workspace.
    - **Resource Group**: Leave at Create new and provide a name for the new resource group.
-   - **Location**: Select a location near you for deployment. For the list of regions supported by Azure Databricks, see [Azure services available by region](https://azure.microsoft.com/regions/services/).
    - **Workspace Name**: Provide a name for your workspace.
+   - **Region**: Select a location near you for deployment. For the list of regions supported by Azure Databricks, see [Azure services available by region](https://azure.microsoft.com/regions/services/).
    - **Pricing Tier**: Ensure `standard` is selected.
 
+![Creating the Azure Databricks resource](images/00d-create-adb-resource.png 'Creating the Azure Databricks resource')
+
 1. Select **Review + create**.
-1. Select **Create**.
+
+1. Wait until the message "Validation Succeeded" appears.  Select **Create**.
+
 1. The workspace creation takes a few minutes. During workspace creation, the portal displays the Submitting deployment for Azure Databricks tile on the right side. You may need to scroll right on your dashboard to see the tile. There is also a progress bar displayed near the top of the screen. You can watch either area for progress.
 
 ### Create a cluster
