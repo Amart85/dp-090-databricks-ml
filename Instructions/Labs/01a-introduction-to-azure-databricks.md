@@ -83,11 +83,9 @@ To complete this exercise, you will need to deploy an Azure Databricks workspace
 
 5. On the Import Notebooks dialog, browse and open the `01a - Getting Started with Azure Databricks.dbc` file from your local computer and then select **Import**.
 
-    ![Obtaining a zip archive of the repository to access the notebook for upload into the Databricks workspace.](images/01a-import-notebook.png "Obtaining a local copy of the notebook")
+    ![Obtaining a local copy of the notebook.](images/01a-import-notebook.png "Obtaining a local copy of the notebook")
 
-6. A folder named after the archive should appear. Select that folder.
-
-7. The folder will contain one or more notebooks. These are the notebooks you will use in completing this exercise.
+6. A notebook named after the .dbc file should appear. Select that notebook.
 
 ## Exercise: Getting Started with Azure Databricks
 
