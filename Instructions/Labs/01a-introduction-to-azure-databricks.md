@@ -52,7 +52,9 @@ To complete this exercise, you will need to deploy an Azure Databricks workspace
 
 1. Enter a name for your cluster. Use your name or initials to easily differentiate your cluster from your coworkers.
 
-1. Select the **Databricks RuntimeVersion**: **Runtime: 7.3 LTS ML (Scala 2.12, Spark 3.0.1)** (remember to select the **ML** version).
+1. Select `Cluster Mode` as `Single Node`. Leave `Pool` set to `None`.
+
+1. Select the **Databricks RuntimeVersion**: **Runtime: 8.1 LTS ML (Scala 2.12, Spark 3.1.1)** (remember to select the **ML** version).
 
 1. Select the values for the cluster configuration.
     - **Enable autoscaling**: **Uncheck** this option.
