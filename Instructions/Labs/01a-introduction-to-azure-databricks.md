@@ -96,7 +96,36 @@ To complete this exercise, you will need to deploy an Azure Databricks workspace
 
     ![Obtaining a local copy of the notebook.](images/01a-import-notebook.png "Obtaining a local copy of the notebook")
 
-1. For each .dbc file you will get a notebook with the same name. 
+1. For each .dbc file you will get a notebook with the same name.
+
+### Upload the model training data
+
+1. Open the link below in a new browser tab and then **right-click + Save as** to download the data file to your local computer. Save the file as **csv**, and name it `nyc-taxi.csv`.
+
+   [nyc-taxi.csv](https://github.com/MicrosoftLearning/dp-090-databricks-ml/blob/master/data/nyc-taxi.csv?raw=true)
+
+1. Within the Azure Databricks Workspace, select **Import & Explore Data**.
+
+    ![Azure Databricks landing page](images/02-azure-databricks-landing-page.png 'Import & Explore Data')
+
+1. Upload the `nyc-taxi.csv` file from your local compute and then select **Create Table with UI**.
+
+    ![Create new table page](images/02-azure-databricks-upload-file.png 'Create New Table')
+
+1. Select your cluster and then select **Preview Table**.
+
+    ![Create new table page](images/02-azure-databricks-preview-table.png 'Preview Table')
+
+1. Provide the following information then select **Create Table**.
+
+    - **Table Name**: `nyc_taxi`
+    - **File Type**: `csv`
+    - **Column Delimiter**: `,`
+    - **First row is header**: `checked`
+    - **Infer schema**: `checked`
+    - **Multi-line**: `unchecked`
+
+    ![Create new table](images/02-azure-databricks-create-table.png 'Create Table')
 
 ## Exercise: Getting Started with Azure Databricks
 
