@@ -23,27 +23,21 @@ To complete this exercise, you will need to deploy an Azure Databricks workspace
 
 ### Deploy an Azure Databricks workspace
 
-1. Go to the the [Azure Portal](https://portal.azure.com). Click on the `Create a resource` button.
+1. Go to the the [Azure Portal](https://portal.azure.com). 
 
-![Creating the Azure Databricks resource](images/00a-create-adb-resource.png 'Creating the Azure Databricks resource')
+Go to the `Azure Services` section. Click on the `+` button: `Create a resource`.
 
 1. The `New` window appears. Enter the type of your resource. Type `Azure Databricks`, then press Enter.
 
-![Creating the Azure Databricks resource](images/00b-create-adb-resource.png 'Creating the Azure Databricks resource')
-
 1. The `Azure Databricks` window appears. Click on the `Create` button.
-
-![Creating the Azure Databricks resource](images/00c-create-adb-resource.png 'Creating the Azure Databricks resource')
 
 1. The `Create an Azure Databricks workspace` window appears. Configure your new Databricks resource as follows:
 
    - **Subscription**: Choose the Azure Subscription in which to deploy the workspace.
-   - **Resource Group**: Click on Create new and provide a name for the new resource group.
+   - **Resource Group**: Click on `Create new` under this setting and provide a name for the new resource group.
    - **Workspace Name**: Provide a name for your workspace.
    - **Region**: Select a location near you for deployment. For the list of regions supported by Azure Databricks, see [Azure services available by region](https://azure.microsoft.com/regions/services/).
    - **Pricing Tier**: Ensure `standard` is selected.
-
-![Creating the Azure Databricks resource](images/00d-create-adb-resource.png 'Creating the Azure Databricks resource')
 
 1. Select **Review + create**.
 
@@ -60,8 +54,6 @@ To complete this exercise, you will need to deploy an Azure Databricks workspace
 1. In the left-hand menu of your Databricks workspace, select **Clusters**.
 
 1. Select **Create Cluster** to add a new cluster.
-
-    ![The create cluster page](images/02-azure-databricks-create-cluster.png 'Create New Cluster Dialog')
 
 1. Enter a name for your cluster. Use your name or initials to easily differentiate your cluster from your coworkers.
 
@@ -84,22 +76,20 @@ To complete this exercise, you will need to deploy an Azure Databricks workspace
 
 1. Select the links below to download the `Databricks notebook archive` files to your local computer:
 
-   [01 - Introduction to Azure Databricks.dbc](/01%20-%20Introduction%20to%20Azure%20Databricks.dbc?raw=true)
-   [02 - Training and Evaluating Machine Learning Models.dbc](/02%20-%20Training%20and%20Evaluating%20Machine%20Learning%20Models.dbc?raw=true)
-   [03 - Managing Experiments and Models.dbc](/03%20-%20Managing%20Experiments%20and%20Models.dbc?raw=true)
-   [04 - Integrating Azure Databricks and Azure Machine Learning.dbc](/04%20-%20Integrating%20Azure%20Databricks%20and%20Azure%20Machine%20Learning.dbc?raw=true)
+   * [01 - Introduction to Azure Databricks.dbc](/01%20-%20Introduction%20to%20Azure%20Databricks.dbc?raw=true)
+   * [02 - Training and Evaluating Machine Learning Models.dbc](/02%20-%20Training%20and%20Evaluating%20Machine%20Learning%20Models.dbc?raw=true)
+   * [03 - Managing Experiments and Models.dbc](/03%20-%20Managing%20Experiments%20and%20Models.dbc?raw=true)
+   * [04 - Integrating Azure Databricks and Azure Machine Learning.dbc](/04%20-%20Integrating%20Azure%20Databricks%20and%20Azure%20Machine%20Learning.dbc?raw=true)
 
 1. Within the Azure Databricks Workspace, using the command bar on the left, select **Workspace**, **Users** and select your username (the entry with house icon).
 
 1. In the blade that appears, select the downwards pointing chevron next to your name, and select **Import**.
 
-    ![The Import menu item can be accessed by selecting your username from the list of users in the workspace.](images/02-azure-databricks-import-menu.png "Import Menu")
+1. On the Import Notebooks dialog, browse and open the downloaded .dbc files from your local computer, one at a time, and then select **Import**. 
 
-1. On the Import Notebooks dialog, browse and open the downloaded .dbc files from your local computer, one at a time, and then select **Import**.
+1. Repeat this for every .dbc file.
 
-    ![Obtaining a local copy of the notebook.](images/01a-import-notebook.png "Obtaining a local copy of the notebook")
-
-1. For each .dbc file you will get a folder with the same name, containing notebooks.
+For each .dbc file you will get a folder with the same name, containing notebooks.
 
 ### Upload the model training data
 
@@ -107,17 +97,11 @@ To complete this exercise, you will need to deploy an Azure Databricks workspace
 
    [nyc-taxi.csv](https://github.com/MicrosoftLearning/dp-090-databricks-ml/blob/master/data/nyc-taxi.csv?raw=true)
 
-1. Within the Azure Databricks Workspace, select **Import & Explore Data**.
-
-    ![Azure Databricks landing page](images/02-azure-databricks-landing-page.png 'Import & Explore Data')
+1. On the Home page in the Databricks Workspace, select the option to **Import & Explore Data**.
 
 1. Upload the `nyc-taxi.csv` file from your local compute and then select **Create Table with UI**.
 
-    ![Create new table page](images/02-azure-databricks-upload-file.png 'Create New Table')
-
 1. Select your cluster and then select **Preview Table**.
-
-    ![Create new table page](images/02-azure-databricks-preview-table.png 'Preview Table')
 
 1. Provide the following information then select **Create Table**.
 
@@ -128,8 +112,6 @@ To complete this exercise, you will need to deploy an Azure Databricks workspace
     - **First row is header**: `checked`
     - **Infer schema**: `checked`
     - **Multi-line**: `unchecked`
-
-    ![Create new table](images/02-azure-databricks-create-table.png 'Create Table')
 
 ## Exercise: Getting Started with Azure Databricks
 
