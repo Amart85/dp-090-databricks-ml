@@ -67,7 +67,10 @@ To complete this exercise, you will need to deploy an Azure Databricks workspace
 
 1. Select `Cluster Mode` as `Single Node`. Leave `Pool` set to `None`.
 
-1. Select the **Databricks RuntimeVersion**: **Runtime: 8.1 LTS ML (Scala 2.12, Spark 3.1.1)** (remember to select the **ML** version).
+1. Select the latest available **Databricks Runtime Version**, use the **ML** edition. Make sure that the selected runtime:
+   * does not use a GPU
+   * has Scala > 2.11
+   * has Spark > 3.0
 
 1. Select the values for the cluster configuration.
 
@@ -96,7 +99,7 @@ To complete this exercise, you will need to deploy an Azure Databricks workspace
 
     ![Obtaining a local copy of the notebook.](images/01a-import-notebook.png "Obtaining a local copy of the notebook")
 
-1. For each .dbc file you will get a notebook with the same name.
+1. For each .dbc file you will get a folder with the same name, containing notebooks.
 
 ### Upload the model training data
 
@@ -119,6 +122,7 @@ To complete this exercise, you will need to deploy an Azure Databricks workspace
 1. Provide the following information then select **Create Table**.
 
     - **Table Name**: `nyc_taxi`
+    - **Create in Database**: `default`
     - **File Type**: `csv`
     - **Column Delimiter**: `,`
     - **First row is header**: `checked`
