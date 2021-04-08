@@ -20,17 +20,11 @@ The notebooks you will run depends on certain Python libraries that will need to
 - Next install `sklearn-pandas==2.1.0`
 - Next install `azureml-mlflow`
 
-    ![Install library dialog](images/04-azure-databricks-install-library.png 'Install Library Dialog')
-
 ## Deploy an Azure Machine Learning workspace
 
 1. If you have already created an Azure Machine Learning workspace in your subscription, you can skip to the section [Exercise: Running experiments in Azure Machine Learning](#Exercise-Running-experiments-in-Azure-Machine-Learning).
 
-1. In the [Azure Portal](https://portal.azure.com/#home), select **+ Create a resource**, then type `Machine Learning` into the search bar.
-
-1. Select the product **Machine Learning** and then select **Create**.
-
-    ![Create Azure Machine Learning workspace](images/04-create-aml-ws-01.png 'Create AML workspace')
+1. In the [Azure Portal](https://portal.azure.com/#home), create a new resource: **Machine Learning**
 
 1. In the Create Machine Learning Workspace dialog that appears, provide the following values:
 
@@ -39,9 +33,7 @@ The notebooks you will run depends on certain Python libraries that will need to
    - **Workspace Name**: `aml-ws`
    - **Region**: Choose a region closest to you (it is OK if the Azure Databricks Workspace and the Azure Machine Learning Workspace are in different locations).
 
-1. Select **Review + Create** and then select **Create** when the form values passes validation.
-
-    ![Create Azure Machine Learning workspace](images/04-create-aml-ws-02.png 'Create AML workspace')
+1. Review and complete the creation of Azure Machine Learning workspace.
 
 ## Exercise: Running experiments in Azure Machine Learning
 
@@ -57,11 +49,7 @@ In this exercise, you will learn to run experiments in Azure Machine Learning fr
 
 1. From within the Azure Machine Learning studio, navigate to the **Experiments** tab, and open the experiment run that corresponds to the MLflow experiment. In the **Metrics** tab of the run, you will observe the model metrics that were logged via MLflow tracking APIs.
 
-    ![Model metrics](images/04-01-03-01-AML-metrics.png 'Model Metrics')
-
-1. Next, when you open the **Outputs + logs** tab you will observe the model artifacts that were logged via MLflow tracking APIs.
-
-    ![Model artifacts](images/04-01-03-01-AML-artifacts.png 'Model Artifacts')
+1. Next, open the **Outputs + logs** tab you will observe the model artifacts that were logged via MLflow tracking APIs.
 
 ## Clean-up
 
