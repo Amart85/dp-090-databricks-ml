@@ -12,7 +12,7 @@ Machine Learning is primarily about training models that you can use to provide 
 
 **Complete Lab 01a**: Before you can run this lab, you will need to complete [Lab 01a](https://github.com/MicrosoftLearning/dp-090-databricks-ml/blob/master/Instructions/Labs/01a-introduction-to-azure-databricks.md), Getting Started with Azure Databricks.  This includes important steps such as creating a cluster, uploading notebooks, and uploading the NYC Taxi & Limousine Commission - green taxi trip records dataset.
 
-## Exercise: Preparing Data for Machine Learning
+## Prepare Data for Machine Learning
 
 In this exercise, you will learn to prepare training data for machine learning purposes as shown in the notebook.
 
@@ -20,7 +20,7 @@ In this exercise, you will learn to prepare training data for machine learning p
 
 1. If your cluster is not running, go to `Clusters`, select your cluster and press the `Start` button, then press `Confirm`. Wait until the cluster is started.
 
-1. Attach the notebook to your cluster. Go to the top left dropwdown and choose your cluster to attach your notebook to that cluster. Alternately, you can do this later, when running the first cell in a detached notebook: a confirmation dialog appears, warning that the notebook is not yet attached to any cluster, asking if you want to automatically launch a cluster, press `Attach and Run` to do so.
+1. Attach the notebook to your cluster. Go to the top left dropdown menu and choose your cluster to attach your notebook to that cluster. Alternately, you can do this later, when running the first cell in a detached notebook: a confirmation dialog appears, warning that the notebook is not yet attached to any cluster, asking if you want to automatically launch a cluster, press `Attach and Run` to do so.
 
 1. Then read the notes in the notebook, running each code cell in turn.
 

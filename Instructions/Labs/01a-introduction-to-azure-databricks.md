@@ -19,7 +19,7 @@ To begin, you need to have access to an Azure Databricks workspace with an inter
 
 - If you are not a Visual Studio Subscriber, you can sign up for the FREE [Visual Studio Dev Essentials](https://www.visualstudio.com/dev-essentials/) program to create Azure free account (includes 1 year of free services, $200 for 1st month).
 
-## Create the required resources
+## Create Azure Databricks resources
 
 To complete this exercise, you will need to deploy an Azure Databricks workspace in your Azure subscription.
 
@@ -115,7 +115,7 @@ For each .dbc file you will get a folder with the same name, containing notebook
     - **Infer schema**: `checked`
     - **Multi-line**: `unchecked`
 
-## Exercise: Getting Started with Azure Databricks
+## Explore Azure Databricks
 
 In this exercise, you will discover the Azure Databricks environment.
 
@@ -123,7 +123,7 @@ In this exercise, you will discover the Azure Databricks environment.
 
 1. If your cluster is not running, go to `Clusters`, select your cluster and press the `Start` button, then press `Confirm`. Wait until the cluster is started.
 
-1. Attach the notebook to your cluster. Go to the top left dropwdown and choose your cluster to attach your notebook to that cluster. Alternately, you can do this later, when running the first cell in a detached notebook: a confirmation dialog appears, warning that the notebook is not yet attached to any cluster, asking if you want to automatically launch a cluster, press `Attach and Run` to do so.
+1. Attach the notebook to your cluster. Go to the top left dropdown menu and choose your cluster to attach your notebook to that cluster. Alternately, you can do this later, when running the first cell in a detached notebook: a confirmation dialog appears, warning that the notebook is not yet attached to any cluster, asking if you want to automatically launch a cluster, press `Attach and Run` to do so.
 
 1. Read the notes in the notebook, running each code cell in turn.
 

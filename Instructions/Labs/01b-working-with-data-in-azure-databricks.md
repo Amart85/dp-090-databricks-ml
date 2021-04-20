@@ -16,7 +16,7 @@ Assuming you have completed the previous lab, you have a working setup already. 
 
 Also, the notebook and the required data has been already imported.
 
-## Exercise: Working with Data in Azure Databricks
+## Work with Data in Azure Databricks
 
 In this exercise, you will learn how to load and manipulate data inside the Azure Databricks environment.
 
@@ -24,7 +24,7 @@ In this exercise, you will learn how to load and manipulate data inside the Azur
 
 1. If your cluster is not running, go to `Clusters`, select your cluster and press the `Start` button, then press `Confirm`. Wait until the cluster is started.
 
-1. Attach the notebook to your cluster. Go to the top left dropwdown and choose your cluster to attach your notebook to that cluster. Alternately, you can do this later, when running the first cell in a detached notebook: a confirmation dialog appears, warning that the notebook is not yet attached to any cluster, asking if you want to automatically launch a cluster, press `Attach and Run` to do so.
+1. Attach the notebook to your cluster. Go to the top left dropdown menu and choose your cluster to attach your notebook to that cluster. Alternately, you can do this later, when running the first cell in a detached notebook: a confirmation dialog appears, warning that the notebook is not yet attached to any cluster, asking if you want to automatically launch a cluster, press `Attach and Run` to do so.
 
 1. Read the notes in the notebook, running each code cell in turn.
 
