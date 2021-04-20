@@ -1,7 +1,9 @@
 ---
 lab:
     title: 'Getting Started with Azure Databricks'
+    module: 'Module 1 - Introduction to Azure Databricks'
 ---
+
 # Getting Started with Azure Databricks
 
 Azure Databricks is a fast, easy and collaborative Spark based analytics service. It is used to accelerate big data analytics, artificial intelligence, performant data lakes, interactive data science, machine learning and collaboration.
@@ -9,7 +11,7 @@ You will discover the Azure Databricks environment and the main topics around it
 
 To begin, you need to have access to an Azure Databricks workspace with an interactive cluster. If you do not have a workspace and/or the required cluster, follow the instructions below. Otherwise, you can skip to the section [Upload the Databricks notebook archive](#Upload-the-Databricks-notebook-archive).
 
-## Unit Pre-requisites
+## Prerequisites
 
 **Microsoft Azure Account**: You will need a valid and active Azure account for the Azure labs. If you do not have one, you can sign up for a [free trial](https://azure.microsoft.com/free/)
 

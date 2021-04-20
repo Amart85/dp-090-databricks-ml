@@ -1,14 +1,16 @@
 ---
 lab:
     title: 'Working with Data in Azure Databricks'
+    module: 'Module 1 - Introduction to Azure Databricks'
 ---
+
 # Working with Data in Azure Databricks
 
-You will learn to load your data by using DBFS and manipulate it by using Spark Dataframes.
+You will learn to load data by using DBFS and manipulate it by using Spark Dataframes.
 Databricks File System (DBFS) is a distributed file system mounted into a Databricks workspace and available on Databricks clusters.
 DataFrames are the distributed collections of data allowing the processing of huge amounts of data.
 
-## Unit Pre-requisites
+## Prerequisites
 
 Assuming you have completed the previous lab, you have a working setup already. A cluster is available and your workspace exists.
 

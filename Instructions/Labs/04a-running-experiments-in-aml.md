@@ -1,12 +1,14 @@
 ---
 lab:
     title: 'Running experiments in Azure Machine Learning'
+    module: 'Module 4 - Integrating Azure Databricks and Azure Machine Learning'
 ---
+
 # Running experiments in Azure Machine Learning
 
 Machine Learning is primarily about training models that you can use to provide predictive services to applications. In this exercise, you will learn to run experiments in Azure Machine Learning from Azure Databricks.
 
-## Unit Pre-requisites
+## Prerequisites
 
 **Complete Lab 01a**: Before you can run this lab, you will need to complete [Lab 01a](https://github.com/MicrosoftLearning/dp-090-databricks-ml/blob/master/Instructions/Labs/01a-introduction-to-azure-databricks.md), Getting Started with Azure Databricks.  This includes important steps such as creating a cluster, uploading notebooks, and uploading the NYC Taxi & Limousine Commission - green taxi trip records dataset.
 

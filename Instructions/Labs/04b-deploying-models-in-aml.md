@@ -1,12 +1,14 @@
 ---
 lab:
     title: 'Deploying Models in Azure Machine Learning'
+    module: 'Module 4 - Integrating Azure Databricks and Azure Machine Learning'
 ---
+
 # Deploying Models in Azure Machine Learning
 
 Machine Learning is primarily about training models that you can use to provide predictive services to applications. In this exercise, you will learn to train models in Azure Databricks and then deploy models in Azure Machine Learning.
 
-## Unit Pre-requisites
+## Prerequisites
 
 **Complete Lab 04a**: Before you can run this lab, you will need to complete [Lab 04a](https://github.com/MicrosoftLearning/dp-090-databricks-ml/blob/master/Instructions/Labs/04a-running-experiments-in-aml.md), Running experiments in Azure Machine Learning.  This includes important steps such as creating Azure Machine Learning workspace, creating a Azure Databricks cluster, install libraries, uploading notebooks, and uploading the NYC Taxi & Limousine Commission - green taxi trip records dataset.
 
