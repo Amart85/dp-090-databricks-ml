@@ -16,9 +16,9 @@ Before starting this lab, complete the **Getting Started with Azure Databricks**
 
 The notebooks you will run depends on certain Python libraries that will need to be installed in your cluster. The following steps walk you through adding these dependencies.
 
-- From within the Azure Databricks workspace, from the `Clusters` section, select your cluster. Make sure the state of the cluster is `Running`.
+- From within the Azure Databricks workspace, from the **Clusters** section, select your cluster. Make sure the state of the cluster is **Running**.
 - Select the **Libraries** link and then select **Install New**.
-- In the Library Source, select **PyPi** and in the `Package` text box type `azureml-sdk[databricks]` and select **Install**.
+- In the Library Source, select **PyPi** and in the **Package** text box type `azureml-sdk[databricks]` and select **Install**.
 - Next install `sklearn-pandas==2.1.0`
 - Next install `azureml-mlflow`
 
@@ -32,7 +32,7 @@ The notebooks you will run depends on certain Python libraries that will need to
 
    - **Subscription**: Choose your Azure subscription.
    - **Resource group**: Select the resource group in which you deployed your Azure Databricks workspace.
-   - **Workspace Name**: `aml-ws`
+   - **Workspace Name**: aml-ws
    - **Region**: Choose a region closest to you (it is OK if the Azure Databricks Workspace and the Azure Machine Learning Workspace are in different locations).
 
 1. Review and complete the creation of Azure Machine Learning workspace.
