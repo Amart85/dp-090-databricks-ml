@@ -18,7 +18,7 @@ In this exercise, you will learn how to load and manipulate data inside the Azur
 
 1. In a web browser, open your Azure Databricks workspace.
 
-1. If your cluster is not running, on the **Clusters** page, select your cluster and use the **&#9654; Start** button to start it
+1. If your cluster is not running, on the **Compute** page, select your cluster and use the **&#9654; Start** button to start it
 
 1. In the Azure Databricks Workspace, using the command bar on the left, select **Workspace**. Then select **Users**, and **&#9751; *your_user_name***. Then in the folder named **04 - Integrating Azure Databricks and Azure Machine Learning**, open the **2.0 Deploying Models in Azure Machine Learning** notebook.
 
@@ -26,6 +26,6 @@ In this exercise, you will learn how to load and manipulate data inside the Azur
 
 ## Clean-up
 
-If you're finished working with Azure Databricks for now, in Azure Databricks workspace, on the **Clusters** page, select your cluster and select **&#9632; Terminate** to shut it down.
+If you're finished working with Azure Databricks for now, in Azure Databricks workspace, on the **Compute** page, select your cluster and select **&#9632; Terminate** to shut it down.
 
 If you have finished exploring Azure Databricks, you can delete the resource groups in your Azure subscription that contain the Azure Databricks and Azure Machine Learning resources.
