@@ -28,9 +28,9 @@ To use Azure Databricks, you first need to deploy an Azure Databricks workspace 
 
 ### Create a cluster
 
-1. When your Azure Databricks workspace resource has been created, select **Go to Resource** and select **Launch Workspace** to open your Databricks workspace in a new tab, signing in if prompted.
+1. When your Azure Databricks workspace resource has been created, go to it in the portal, and select **Launch Workspace** to open your Databricks workspace in a new tab, signing in if prompted.
 
-1. In the left-hand menu of your Databricks workspace, select **Create**, and then select **Cluster** to add a new cluster with the following configuration:
+1. 1. In the left-hand menu of your Databricks workspace, select Compute, and then select + Create Cluster to add a new cluster with the following configuration:
    - **Name**: *Enter a unique name.*
    - **Cluster Mode**: Single Node
    - **Pool**: None
@@ -45,7 +45,7 @@ To use Azure Databricks, you first need to deploy an Azure Databricks workspace 
 
 ### Upload data
 
-1. Save `https://raw.githubusercontent.com/MicrosoftLearning/dp-090-databricks-ml/master/data/nyc-taxi.csv` to your computer by copying and pasting the entire page to notepad as **nyc-taxi.csv** in any folder.
+1. Download `https://raw.githubusercontent.com/MicrosoftLearning/dp-090-databricks-ml/master/data/nyc-taxi.csv` to your computer, saving it as **nyc-taxi.csv** in any folder.
 
 1. On the **Data** page in the Databricks Workspace, select the option to **Create Table**.
 
@@ -92,4 +92,4 @@ In this exercise, you will discover the Azure Databricks environment.
 
 ## Clean-up
 
-If you're finished working with Azure Databricks for now, in the left-hand menu of your Databricks workspace, select **Compute**, then select **■ Terminate** to shut it down. Otherwise, leave it running for the next exercise.
+If you're finished working with Azure Databricks for now, in Azure Databricks workspace, on the **Compute** page, select your cluster and select **&#9632; Terminate** to shut it down. Otherwise, leave it running for the next exercise.
