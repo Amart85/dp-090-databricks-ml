@@ -30,7 +30,7 @@ To use Azure Databricks, you first need to deploy an Azure Databricks workspace 
 
 1. When your Azure Databricks workspace resource has been created, go to it in the portal, and select **Launch Workspace** to open your Databricks workspace in a new tab, signing in if prompted.
 
-1. In the left-hand menu of your Databricks workspace, select Compute, and then select + Create Cluster to add a new cluster with the following configuration:
+1. In the left-hand menu of your Databricks workspace, select **Compute**, and then select **+ Create Cluster** to add a new cluster with the following configuration:
    - **Name**: *Enter a unique name.*
    - **Cluster Mode**: Single Node
    - **Pool**: None
