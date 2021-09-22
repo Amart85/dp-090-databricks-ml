@@ -1,4 +1,4 @@
-# Set up for hyperparameter tuning
+# Set-up for hyperparameter tuning
 
 To begin, you need to have access to an Azure Databricks workspace with an interactive cluster. If you do not have a workspace and/or the required cluster, follow the instructions below. Otherwise, you can skip to the **Upload data** section below. Note that you need to upload **two different datasets** for these exercises!
 
