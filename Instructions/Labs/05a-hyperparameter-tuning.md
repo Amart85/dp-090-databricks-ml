@@ -1,6 +1,6 @@
 # Set up for hyperparameter tuning
 
-To begin, you need to have access to an Azure Databricks workspace with an interactive cluster. If you do not have a workspace and/or the required cluster, follow the instructions below. Otherwise, you can skip to the **Upload data** section below.
+To begin, you need to have access to an Azure Databricks workspace with an interactive cluster. If you do not have a workspace and/or the required cluster, follow the instructions below. Otherwise, you can skip to the **Upload data** section below. Note that you need to upload **two different datasets** for these exercises!
 
 ## Create Azure Databricks resources
 
@@ -34,19 +34,41 @@ To use Azure Databricks, you first need to deploy an Azure Databricks workspace 
 
 1. Wait for your cluster to be created, which may take several minutes. The cluster will start automatically, and eventually the spinning *Pending* indicator next to the cluster name will change to a solid green circle to indicate a status of *Running*.
 
-### Upload data
+### Upload dataset 1
 
-1. Download `https://raw.githubusercontent.com/MicrosoftLearning/dp-090-databricks-ml/master/data/nyc-taxi.csv` to your computer, saving it as **nyc-taxi.csv** in any folder.
+1. Download `https://github.com/MicrosoftDocs/ml-basics/blob/master/challenges/data/real_estate.csv` to your computer, saving it as **real_estate.csv** in any folder.
 
 1. On the **Data** page in the Databricks Workspace, select the option to **Create Table**.
 
-1. In the **Files** area, select **browse** and then browse to the **nyc-taxi.csv** file you downloaded.
+1. In the **Files** area, select **browse** and then browse to the **real_estate.csv** file you downloaded.
 
 1. After the file is uploaded to the workspace, select **Create Table with UI**. Then select your cluster and select **Preview Table**.
 
 1. Specify the following table attributes, and then select **Create Table**.
 
-    - **Table Name**: nyc_taxi
+    - **Table Name**: real_estate
+    - **Create in Database**: default
+    - **File Type**: CSV
+    - **Column Delimiter**: , *(comma)*
+    - **First row is header**: *checked*
+    - **Infer schema**: *checked*
+    - **Multi-line**: *unchecked*
+
+1. After the table has been created, view it in the workspace.
+
+### Upload dataset 2
+
+1. Download `https://github.com/MicrosoftDocs/ml-basics/blob/master/challenges/data/wine.csv` to your computer, saving it as **wine.csv** in any folder.
+
+1. On the **Data** page in the Databricks Workspace, select the option to **Create Table**.
+
+1. In the **Files** area, select **browse** and then browse to the **wine.csv** file you downloaded.
+
+1. After the file is uploaded to the workspace, select **Create Table with UI**. Then select your cluster and select **Preview Table**.
+
+1. Specify the following table attributes, and then select **Create Table**.
+
+    - **Table Name**: wine
     - **Create in Database**: default
     - **File Type**: CSV
     - **Column Delimiter**: , *(comma)*
@@ -75,7 +97,7 @@ To use Azure Databricks, you first need to deploy an Azure Databricks workspace 
 
 In this exercise, you will discover the Azure Databricks environment.
 
-1. In the **01 - Introduction to Azure Databricks** folder in your workspace, open the **Getting Started with Azure Databricks** notebook.
+1. In the **05 - Extra exercises** folder in your workspace, open the **Getting Started with Azure Databricks** notebook.
 
 1. In the top left dropdown menu, choose your cluster to attach your notebook to that cluster. *(Alternatively, you will be prompted to attach a cluster when running the first cell in an unattached notebook).*
 
