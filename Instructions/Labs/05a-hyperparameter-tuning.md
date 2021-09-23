@@ -1,6 +1,6 @@
 # Set-up for hyperparameter tuning
 
-To begin, you need to have access to an Azure Databricks workspace with an interactive cluster. If you do not have a workspace and/or the required cluster, follow the instructions below. Otherwise, you can skip to the **Upload data** section below. Note that you need to upload **two different datasets** for these exercises!
+To begin, you need to have access to an Azure Databricks workspace with an interactive cluster. If you do not have a workspace and/or the required cluster, follow the instructions below. Otherwise, you can skip to the **Upload data** section below. Note that you need to upload **two different datasets** to complete the two exercises!
 
 ## Create Azure Databricks resources
 
@@ -34,7 +34,7 @@ To use Azure Databricks, you first need to deploy an Azure Databricks workspace 
 
 1. Wait for your cluster to be created, which may take several minutes. The cluster will start automatically, and eventually the spinning *Pending* indicator next to the cluster name will change to a solid green circle to indicate a status of *Running*.
 
-### Upload dataset 1
+### Upload dataset exercise 1
 
 1. Download `https://github.com/MicrosoftDocs/ml-basics/blob/master/challenges/data/real_estate.csv` to your computer, saving it as **real_estate.csv** in any folder.
 
@@ -56,7 +56,7 @@ To use Azure Databricks, you first need to deploy an Azure Databricks workspace 
 
 1. After the table has been created, view it in the workspace.
 
-### Upload dataset 2
+### Upload dataset exercise 2
 
 1. Download `https://github.com/MicrosoftDocs/ml-basics/blob/master/challenges/data/wine.csv` to your computer, saving it as **wine.csv** in any folder.
 
@@ -93,11 +93,21 @@ To use Azure Databricks, you first need to deploy an Azure Databricks workspace 
    - `https://github.com/MicrosoftLearning/dp-090-databricks-ml/raw/master/03%20-%20Managing%20Experiments%20and%20Models.dbc`
    - `https://github.com/MicrosoftLearning/dp-090-databricks-ml/raw/master/04%20-%20Integrating%20Azure%20Databricks%20and%20Azure%20Machine%20Learning.dbc`
 
-## Explore Azure Databricks
+## Explore automated MLflow hyperparameter tuning
 
-In this exercise, you will discover the Azure Databricks environment.
+In this exercise, you will discover how to use automated MLflow for hyperparameter tuning.
 
-1. In the **05 - Extra exercises** folder in your workspace, open the **Getting Started with Azure Databricks** notebook.
+1. In the **05 - Extra exercises** folder in your workspace, open the **1.0 Automated MLflow Hyperparameter Tuning** notebook.
+
+1. In the top left dropdown menu, choose your cluster to attach your notebook to that cluster. *(Alternatively, you will be prompted to attach a cluster when running the first cell in an unattached notebook).*
+
+1. Read the notes in the notebook, running each code cell in turn.
+
+## Explore 
+
+In this exercise, you will discover how to use automated MLflow for hyperparameter tuning.
+
+1. In the **05 - Extra exercises** folder in your workspace, open the **1.0 Automated MLflow Hyperparameter Tuning** notebook.
 
 1. In the top left dropdown menu, choose your cluster to attach your notebook to that cluster. *(Alternatively, you will be prompted to attach a cluster when running the first cell in an unattached notebook).*
 
