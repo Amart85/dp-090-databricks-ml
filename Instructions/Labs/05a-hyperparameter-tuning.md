@@ -87,12 +87,6 @@ To use Azure Databricks, you first need to deploy an Azure Databricks workspace 
 1. On the **Import Notebooks** dialog, import the notebook archive from the following URL, noting that a folder with the archive name is created, containing one or more notebooks:
    - `https://github.com/MicrosoftLearning/dp-090-databricks-ml/raw/master/01%20-%20Introduction%20to%20Azure%20Databricks.dbc`
 
-1. Repeat the previous step to import the following notebook archives, noting that a folder is created for each archive as it is imported.
-
-   - `https://github.com/MicrosoftLearning/dp-090-databricks-ml/raw/master/02%20-%20Training%20and%20Evaluating%20Machine%20Learning%20Models.dbc`
-   - `https://github.com/MicrosoftLearning/dp-090-databricks-ml/raw/master/03%20-%20Managing%20Experiments%20and%20Models.dbc`
-   - `https://github.com/MicrosoftLearning/dp-090-databricks-ml/raw/master/04%20-%20Integrating%20Azure%20Databricks%20and%20Azure%20Machine%20Learning.dbc`
-
 ## Explore automated MLflow hyperparameter tuning
 
 In this exercise, you will discover how to use automated MLflow for hyperparameter tuning.
@@ -103,11 +97,11 @@ In this exercise, you will discover how to use automated MLflow for hyperparamet
 
 1. Read the notes in the notebook, running each code cell in turn.
 
-## Explore 
+## Explore Hyperopt for hyperparameter tuning
 
 In this exercise, you will discover how to use automated MLflow for hyperparameter tuning.
 
-1. In the **05 - Extra exercises** folder in your workspace, open the **1.0 Automated MLflow Hyperparameter Tuning** notebook.
+1. In the **05 - Extra exercises** folder in your workspace, open the **2.0 Automated MLflow Hyperparameter Tuning** notebook.
 
 1. In the top left dropdown menu, choose your cluster to attach your notebook to that cluster. *(Alternatively, you will be prompted to attach a cluster when running the first cell in an unattached notebook).*
 
