@@ -1,7 +1,7 @@
 ---
 lab:
-    title: 'Extra exercise'
-    module: 'Distributed deep learning with Azure Databricks'
+    title: 'Distributed deep learning with Azure Databricks'
+    module: 'Extra exercise'
 ---
 
 # Set-up for distributed deep learning
