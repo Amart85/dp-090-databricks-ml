@@ -1,7 +1,7 @@
 ---
 lab:
     title: 'Extra exercise'
-    module: 'Hyperparameter tuning in Azure Databricks'
+    module: 'Hyperparameter tuning with Azure Databricks'
 ---
 
 # Set-up for hyperparameter tuning
