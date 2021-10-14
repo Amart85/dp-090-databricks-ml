@@ -1,3 +1,9 @@
+---
+lab:
+    title: 'Extra exercise'
+    module: 'Distributed deep learning with Azure Databricks'
+---
+
 # Set-up for distributed deep learning
 
 To begin, you need to have access to an Azure Databricks workspace with an interactive **standard** cluster. If you do not have a workspace and/or the required cluster, follow the instructions below.
