@@ -10,7 +10,7 @@ MLflow is a fully-featured model tracking and registry system.  In this exercise
 
 ## Prerequisites
 
-Before starting this lab, complete the **Getting Started with Azure Databricks** lab to set up your Azure Databricks environment and import the data and notebooks you require.
+Before starting this lab, complete the [**Getting Started with Azure Databricks**](Instructions/Labs/01a-introduction-to-azure-databricks.md) lab to set up your Azure Databricks environment and import the data and notebooks you require.
 
 ## Use MLflow to Track Experiments
 
