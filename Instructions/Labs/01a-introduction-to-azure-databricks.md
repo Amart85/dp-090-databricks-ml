@@ -63,7 +63,19 @@ To use Azure Databricks, you first need to deploy an Azure Databricks workspace 
     - **Infer schema**: *checked*
     - **Multi-line**: *unchecked*
 
-1. Locate the **passengerCount** column. In the drop-down menu, set the column to **INT**.
+1. Set the approprate data type for each column: Locate the **passengerCount** column. In the drop-down menu, set the column to **INT**.
+
+    - passengerCount: **INT**
+    - tripDistance: **DOUBLE**
+    - hour_of_day: **INT**
+    - day_of_week: **INT**
+    - month_num: **INT**
+    - isPaidTimeOff: **BOOLEAN**
+    - snowDepth: **DOUBLE**
+    - precipTime: **DOUBLE**
+    - precipDepth: **DOUBLE**
+    - temperature: **DOUBLE**
+    - totalAmount: **DOUBLE**
 
 1. Click **Create Table**.
 
