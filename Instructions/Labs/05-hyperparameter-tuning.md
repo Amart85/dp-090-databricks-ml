@@ -91,7 +91,7 @@ To use Azure Databricks, you first need to deploy an Azure Databricks workspace 
 1. In the blade that appears, select the downwards pointing chevron (**v**) next to your name, and select **Import**.
 
 1. On the **Import Notebooks** dialog, import the notebook archive from the following URL, noting that a folder with the archive name is created, containing two notebooks:
-   - `https://github.com/MicrosoftLearning/dp-090-databricks-ml/blob/madiepev-add-modules/05%20-%20Hyperparameter%20Tuning.dbc`
+   - `https://github.com/MicrosoftLearning/dp-090-databricks-ml/blob/master/05%20-%20Hyperparameter%20Tuning.dbc`
 
 ## Explore automated MLflow hyperparameter tuning
 
