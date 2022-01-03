@@ -53,7 +53,7 @@ To use Azure Databricks, you first need to deploy an Azure Databricks workspace 
 
 1. After the file is uploaded to the workspace, select **Create Table with UI**. Then select your cluster and select **Preview Table**.
 
-1. Specify the following table attributes, and then select **Create Table**.
+1. Specify the following table attributes:
 
     - **Table Name**: nyc_taxi
     - **Create in Database**: default
@@ -62,6 +62,22 @@ To use Azure Databricks, you first need to deploy an Azure Databricks workspace 
     - **First row is header**: *checked*
     - **Infer schema**: *checked*
     - **Multi-line**: *unchecked*
+
+1. Set the approprate data type for each column: Locate the **passengerCount** column. In the drop-down menu, set the column to **INT**.
+
+    - passengerCount: **INT**
+    - tripDistance: **DOUBLE**
+    - hour_of_day: **INT**
+    - day_of_week: **INT**
+    - month_num: **INT**
+    - isPaidTimeOff: **BOOLEAN**
+    - snowDepth: **DOUBLE**
+    - precipTime: **DOUBLE**
+    - precipDepth: **DOUBLE**
+    - temperature: **DOUBLE**
+    - totalAmount: **DOUBLE**
+
+1. Click **Create Table**.
 
 1. After the table has been created, view it in the workspace.
 
