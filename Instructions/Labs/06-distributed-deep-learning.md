@@ -47,13 +47,13 @@ To use Azure Databricks, you first need to deploy an Azure Databricks workspace 
 1. In the blade that appears, select the downwards pointing chevron (**v**) next to your name, and select **Import**.
 
 1. On the **Import Notebooks** dialog, import the notebook archive from the following URL, noting that a folder with the archive name is created, containing two notebooks:
-   - `https://github.com/MicrosoftLearning/dp-090-databricks-ml/blob/madiepev-add-modules/06%20-%20Distributed%20Deep%20Learning.dbc`
+   - `https://github.com/MicrosoftLearning/dp-090-databricks-ml/blob/master/06%20-%20Distributed%20Deep%20Learning.dbc`
 
 ## Explore distributed deep learning
 
 In this exercise, you will discover how to use automated MLflow for hyperparameter tuning.
 
-1. In the **05 - Hyperparameter tuning** folder in your workspace, open the **1.0 Automated MLflow Hyperparameter Tuning** notebook.
+1. In the **06 - Distributed Deep Learning** folder in your workspace, open the **1.0 Distributed Deep Learning** notebook.
 
 1. In the top left dropdown menu, choose your cluster to attach your notebook to that cluster. *(Alternatively, you will be prompted to attach a cluster when running the first cell in an unattached notebook).*
 
