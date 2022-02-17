@@ -70,6 +70,7 @@ To use Azure Databricks, you first need to deploy an Azure Databricks workspace 
     - hour_of_day: **INT**
     - day_of_week: **INT**
     - month_num: **INT**
+    - normalizeHolidayName: **STRING**
     - isPaidTimeOff: **BOOLEAN**
     - snowDepth: **DOUBLE**
     - precipTime: **DOUBLE**
