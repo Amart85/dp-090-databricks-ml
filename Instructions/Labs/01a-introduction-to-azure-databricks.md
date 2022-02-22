@@ -17,7 +17,7 @@ To use Azure Databricks, you first need to deploy an Azure Databricks workspace 
 
 ### Deploy an Azure Databricks workspace
 
-1. In the [Azure portal](https://portal.azure.com), create a new **Azure Databricks** resource, specifying the following settings:
+1. In the Azure portal 'https://portal.azure.com', create a new **Azure Databricks** resource, specifying the following settings:
    - **Subscription**: *Choose the Azure Subscription in which to deploy the workspace.*
    - **Resource Group**: *Create a new resource group.*
    - **Workspace Name**: *Provide a name for your workspace.*
