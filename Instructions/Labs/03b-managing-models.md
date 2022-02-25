@@ -12,9 +12,9 @@ The Azure Databricks model registry is a powerful tool for model registration, m
 
 Before starting this lab, complete the **Getting Started with Azure Databricks** lab to set up your Azure Databricks environment and import the data and notebooks you require.
 
-## Train and Validate a Machine Learning ModelManage Models
+## Manage Models
 
-In this exercise, you will learn how to load and manipulate data inside the Azure Databricks environment.
+In this exercise, you will learn how to manage models.
 
 1. In a web browser, open your Azure Databricks workspace.
 
