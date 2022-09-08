@@ -4,11 +4,9 @@ permalink: index.html
 layout: home
 ---
 
-# Content Directory
+# Azure Databricks Machine Learning Exercises
 
-The lab exercises are listed below.
-
-## Labs
+These exercises support Microsoft course [DP-090: Implementing a Machine Learning Solution with Microsoft Azure Databricks](https://docs.microsoft.com/training/courses/dp-090t00) and the associated [Microsoft Learn training content](https://docs.microsoft.com/training/paths/build-operate-machine-learning-solutions-azure-databricks/).
 
 {% assign labs = site.pages | where_exp:"page", "page.url contains '/Instructions/Labs'" %}
 | Module | Lab |
