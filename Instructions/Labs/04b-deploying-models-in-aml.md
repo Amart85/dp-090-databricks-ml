@@ -12,6 +12,16 @@ Machine Learning is primarily about training models that you can use to provide 
 
 Before starting this lab, complete the **Getting Started with Azure Databricks** and **Running experiments in Azure Machine Learning** lab to set up Azure Databricks and Azure machine Learning environments.
 
+## Install libraries on the Azure Databricks Cluster
+
+The notebooks you will run depends on certain Python libraries that will need to be installed in your cluster. The following steps walk you through adding these dependencies.
+
+- From within the Azure Databricks workspace, from the **Clusters** section, select your cluster. Make sure the state of the cluster is **Running**.
+- Select the **Libraries** link and then select **Install New**.
+- In the Library Source, select **PyPi** and in the **Package** text box type `azureml-sdk[databricks]` and select **Install**.
+- Next install `sklearn-pandas==2.1.0`
+- Next install `azureml-mlflow`
+
 ## Deploy a Model in Azure Machine Learning
 
 In this exercise, you will learn how to load and manipulate data inside the Azure Databricks environment.
