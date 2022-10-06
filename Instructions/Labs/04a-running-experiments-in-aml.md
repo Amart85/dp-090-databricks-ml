@@ -22,6 +22,9 @@ The notebooks you will run depends on certain Python libraries that will need to
 - Next install `sklearn-pandas==2.1.0`
 - Next install `azureml-mlflow`
 
+> **Note**:
+> If the packages don't get installed, create a cluster with an older runtime (for example ML runtime 9.1) and try installing the packages on the new cluster.
+
 ## Deploy an Azure Machine Learning workspace
 
 1. If you have already created an Azure Machine Learning workspace in your subscription, you can skip to the section [Exercise: Running experiments in Azure Machine Learning](#Exercise-Running-experiments-in-Azure-Machine-Learning).
