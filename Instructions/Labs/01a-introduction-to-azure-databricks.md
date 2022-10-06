@@ -26,6 +26,9 @@ To use Azure Databricks, you first need to deploy an Azure Databricks workspace 
 
 1. Wait for the workspace to be created. Workspace creation takes a few minutes. During workspace creation, the portal displays the Submitting deployment for Azure Databricks tile on the right side. You may need to scroll right on your dashboard to see the tile. There is also a progress bar displayed near the top of the screen. You can watch either area for progress.
 
+> **Note**: 
+> If you can't sign in because you don't have Owner or Contributor role on the workspace, you can add yourself. Go to the [Azure portal](https://portal.azure.com), go to the Databricks resource, go to **Access control** and **add a role assignment** to add yourself as Owner to the workspace.
+
 ### Create a cluster
 
 1. When your Azure Databricks workspace resource has been created, go to it in the portal, and select **Launch Workspace** to open your Databricks workspace in a new tab, signing in if prompted.
