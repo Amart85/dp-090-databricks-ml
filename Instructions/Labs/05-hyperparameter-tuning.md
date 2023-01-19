@@ -107,7 +107,7 @@ In this exercise, you will discover how to use automated MLflow for hyperparamet
 
 In this exercise, you will discover how to use automated MLflow for hyperparameter tuning.
 
-1. In the **05 - Hyperparameter tuning** folder in your workspace, open the **1.0 Automated MLflow Hyperparameter Tuning** notebook.
+1. In the **05 - Hyperparameter tuning** folder in your workspace, open the **2.0 Hyperparameter tuning with Hyperopt** notebook.
 
 1. In the top left dropdown menu, choose your cluster to attach your notebook to that cluster. *(Alternatively, you will be prompted to attach a cluster when running the first cell in an unattached notebook).*
 
