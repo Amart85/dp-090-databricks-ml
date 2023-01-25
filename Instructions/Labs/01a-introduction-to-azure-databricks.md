@@ -107,7 +107,7 @@ In this exercise, you will discover the Azure Databricks environment.
 
 1. In the **01 - Introduction to Azure Databricks** folder in your workspace, open the **Getting Started with Azure Databricks** notebook.
 
-1. In the top left dropdown menu, choose your cluster to attach your notebook to that cluster. *(Alternatively, you will be prompted to attach a cluster when running the first cell in an unattached notebook).*
+1. Select **Connect** to at the top right to expand the dropdown menu, choose your cluster to attach your notebook to that cluster. *(Alternatively, you will be prompted to attach a cluster when running the first cell in an unattached notebook).*
 
 1. Read the notes in the notebook, running each code cell in turn.
 
