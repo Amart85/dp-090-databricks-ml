@@ -42,7 +42,7 @@ To use Azure Databricks, you first need to deploy an Azure Databricks workspace 
 
 ### Upload dataset exercise 1
 
-1. Download `https://github.com/MicrosoftDocs/ml-basics/blob/master/challenges/data/real_estate.csv` to your computer, saving it as **real_estate.csv** in any folder.
+1. Download `https://raw.githubusercontent.com/MicrosoftDocs/ml-basics/master/challenges/data/real_estate.csv` to your computer, saving it as **real_estate.csv** in any folder.
 
 1. On the **Data** page in the Databricks Workspace, select the option to **Create Table**.
 
@@ -64,7 +64,7 @@ To use Azure Databricks, you first need to deploy an Azure Databricks workspace 
 
 ### Upload dataset exercise 2
 
-1. Download `https://github.com/MicrosoftDocs/ml-basics/blob/master/challenges/data/wine.csv` to your computer, saving it as **wine.csv** in any folder.
+1. Download `https://raw.githubusercontent.com/MicrosoftDocs/ml-basics/master/challenges/data/wine.csv` to your computer, saving it as **wine.csv** in any folder.
 
 1. On the **Data** page in the Databricks Workspace, select the option to **Create Table**.
 
