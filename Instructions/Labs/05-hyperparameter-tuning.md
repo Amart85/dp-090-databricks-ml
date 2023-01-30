@@ -116,3 +116,7 @@ In this exercise, you will discover how to use automated MLflow for hyperparamet
 ## Clean-up
 
 If you're finished working with Azure Databricks for now, in Azure Databricks workspace, on the **Compute** page, select your cluster and select **&#9632; Terminate** to shut it down. Otherwise, leave it running for the next exercise.
+
+
+Select the dropdown menu by selecting the **&#709;** icon.
+
