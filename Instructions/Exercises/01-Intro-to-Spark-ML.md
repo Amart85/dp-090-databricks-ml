@@ -15,7 +15,7 @@ You'll need an [Azure subscription](https://azure.microsoft.com/free) in which y
 
 ## Provision an Azure Databricks workspace
 
-An Azure Databricks workspace provides a central cloud-based environment for all your data science activities in Azure Databricks. You can create a workspace interactively in the Azure portal or use wone you already have, but we recommend you follow the steps below to use a script to provision a suitable workspace for this exercise.
+An Azure Databricks workspace provides a central cloud-based environment for all your data science activities in Azure Databricks. You can create a workspace interactively in the Azure portal or use one you already have, but we recommend you follow the steps below to use a script to provision a suitable workspace for this exercise.
 
 1. In a web browser, sign into the [Azure portal](https://portal.azure.com) at `https://portal.azure.com`.
 2. Use the **[\>_]** button to the right of the search bar at the top of the page to create a new Cloud Shell in the Azure portal, selecting a ***PowerShell*** environment and creating storage if prompted. The cloud shell provides a command line interface in a pane at the bottom of the Azure portal, as shown here:
