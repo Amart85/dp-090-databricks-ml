@@ -34,7 +34,7 @@ You can create a workspace interactively in the Azure portal or use one you alre
 
     ```
     rm -r dp-090 -f
-    git clone https://github.com/MicrosoftLearning/dp-090-azure-databricks-ml dp-090
+    git clone https://github.com/MicrosoftLearning/dp-090-databricks-ml dp-090
     ```
 
 5. After the repo has been cloned, enter the following commands to change to the folder for this lab and run the **setup.ps1** script it contains:
