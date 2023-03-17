@@ -13,3 +13,10 @@ These exercises support Microsoft course [DP-090: Implementing a Machine Learnin
 | --- | --- | 
 {% for activity in labs  %}| {{ activity.lab.module }} | [{{ activity.lab.title }}{% if activity.lab.type %} - {{ activity.lab.type }}{% endif %}]({{ site.github.url }}{{ activity.url }}) |
 {% endfor %}
+
+## New exercises
+
+{% assign exercises = site.pages | where_exp:"page", "page.url contains '/Instructions/Exercises'" %}
+{% for activity in exercises  %}
+- [{{ activity.lab.title }}]({{ site.github.url }}{{ activity.url }}) |
+{% endfor %}
