@@ -87,10 +87,8 @@ The tasks and code used in this exercise are in a notebook that you will run in 
 
    - https://github.com/MicrosoftLearning/dp-090-databricks-ml/raw/master/notebooks/MLflow.ipynb
 
-1. In the Azure Databricks Workspace, using the sidebar on the left, select **Workspace**. Then select **Home**.
-
-1. In the blade that appears, select the downwards pointing chevron (**v**) next to your name, and select **Import**.
-
+1. In the Azure Databricks Workspace, at the top of the sidebar on the left, switch the persona to **Machine Learning**. Then select **Workspace**.
+1. Select **Home** and then select the downwards pointing chevron (**v**) next to your name, and select **Import**.
 1. On the **Import Notebooks** dialog, import the **MLflow.ipynb** notebook file you downloaded.
 1. Select the imported **MLflow.ipynb** notebook to open it.
 1. Select **Connect** and attach the notebook to the cluster you created earlier. *(Alternatively, you will be prompted to attach a cluster when running the first cell in an unattached notebook).*
