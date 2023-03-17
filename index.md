@@ -4,7 +4,7 @@ permalink: index.html
 layout: home
 ---
 
-# Azure Databricks Machine Learning Exercises
+# Azure Databricks Machine Learning ILT Labs
 
 These exercises support Microsoft course [DP-090: Implementing a Machine Learning Solution with Microsoft Azure Databricks](https://docs.microsoft.com/training/courses/dp-090t00) and the associated [Microsoft Learn training content](https://docs.microsoft.com/training/paths/build-operate-machine-learning-solutions-azure-databricks/).
 
@@ -14,7 +14,7 @@ These exercises support Microsoft course [DP-090: Implementing a Machine Learnin
 {% for activity in labs  %}| {{ activity.lab.module }} | [{{ activity.lab.title }}{% if activity.lab.type %} - {{ activity.lab.type }}{% endif %}]({{ site.github.url }}{{ activity.url }}) |
 {% endfor %}
 
-## New exercises
+## Exercises to support Microsoft Learn modules
 
 {% assign exercises = site.pages | where_exp:"page", "page.url contains '/Instructions/Exercises'" %}
 {% for activity in exercises  %}
