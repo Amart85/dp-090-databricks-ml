@@ -85,7 +85,7 @@ The tasks and code used in this exercise are in a notebook that you will run in 
 
 1. Download the following notebook file to your local computer, saving it as **Horovod.ipynb** in any folder.
 
-   - https://github.com/MicrosoftLearning/dp-090-databricks-ml/raw/master/notebooks/Horovod.ipynb
+   - [https://github.com/MicrosoftLearning/dp-090-databricks-ml/raw/master/notebooks/Horovod.ipynb](https://github.com/MicrosoftLearning/dp-090-databricks-ml/raw/master/notebooks/Horovod.ipynb)
 
 1. In the Azure Databricks Workspace, at the top of the sidebar on the left, switch the persona to **Machine Learning**. Then select **Workspace**.
 1. Select **Home** and then select the downwards pointing chevron (**v**) next to your name, and select **Import**.
