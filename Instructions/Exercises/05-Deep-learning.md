@@ -1,13 +1,13 @@
 ---
 lab:
-    title: 'Distribute deep learning training with Horovod'
+    title: 'Train a deep learning model'
 ---
 
-# Distribute deep learning training with Horovod
+# Train a deep learning model
 
-In this exercise, you'll use the **Horovod** library to distribute a deep learning training process using PyTorch.
+In this exercise, you'll use the **PyTorch** library to train a deep learning model in Azure Databricks. Then you'll use the **Horovod** library to distribute deep learning training across multiple worker nodes in a cluster.
 
-This exercise should take approximately **30** minutes to complete.
+This exercise should take approximately **45** minutes to complete.
 
 ## Before you start
 
@@ -83,14 +83,13 @@ Azure Databricks is a distributed processing platform that uses Apache Spark *cl
 
 The tasks and code used in this exercise are in a notebook that you will run in your cluster.
 
-1. Download the following notebook file to your local computer, saving it as **Horovod.ipynb** in any folder.
+1. Download the following notebook file to your local computer, saving it as **Deep-learning.ipynb** in any folder.
 
-   - [https://github.com/MicrosoftLearning/dp-090-databricks-ml/raw/master/notebooks/Horovod.ipynb](https://github.com/MicrosoftLearning/dp-090-databricks-ml/raw/master/notebooks/Horovod.ipynb)
-
+   - [https://github.com/MicrosoftLearning/dp-090-databricks-ml/raw/master/notebooks/Deep-learning.ipynb](https://github.com/MicrosoftLearning/dp-090-databricks-ml/raw/master/notebooks/Deep-learning
 1. In the Azure Databricks Workspace, at the top of the sidebar on the left, switch the persona to **Machine Learning**. Then select **Workspace**.
 1. Select **Home** and then select the downwards pointing chevron (**v**) next to your name, and select **Import**.
-1. On the **Import Notebooks** dialog, import the **Horovod.ipynb** notebook file you downloaded.
-1. Select the imported **Horovod.ipynb** notebook to open it.
+1. On the **Import Notebooks** dialog, import the **Deep-learning.ipynb** notebook file you downloaded.
+1. Select the imported **Deep-learning.ipynb** notebook to open it.
 1. Select **Connect** and attach the notebook to the cluster you created earlier. *(Alternatively, you will be prompted to attach a cluster when running the first cell in an unattached notebook).*
 1. Read the notes in the notebook, running each code cell in turn.
 
