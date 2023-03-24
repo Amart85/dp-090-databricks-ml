@@ -154,7 +154,7 @@ Having run an AutoML experiment, you can explore the best performing model that 
 
 When the endpoint is not longer required, you should delete it to avoid unnecessary costs.
 
-In the **predict-penguin** endpoint page, in the **&#8285;** menu, select **Delete**.
+In the **classify-penguin** endpoint page, in the **&#8285;** menu, select **Delete**.
 
 ## Clean-up
 
