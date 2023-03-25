@@ -7,7 +7,7 @@ lab:
 
 AutoML is a feature of Azure Databricks that tries multiple algorithms and parameters with your data to train an optimal machine learning model.
 
-This exercise should take approximately **45** minutes to complete.
+This exercise should take approximately **30** minutes to complete.
 
 ## Before you start
 
