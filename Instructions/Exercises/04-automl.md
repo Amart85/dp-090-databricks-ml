@@ -38,7 +38,7 @@ An Azure Databricks workspace provides a central cloud-based environment for all
 5. After the repo has been cloned, enter the following commands to change to the folder for this lab and run the **setup.ps1** script it contains:
 
     ```
-    cd dp-090/Allfiles/labs/03
+    cd dp-090/Allfiles/labs/04
     ./setup.ps1
     ```
 
@@ -62,6 +62,7 @@ Azure Databricks is a distributed processing platform that uses Apache Spark *cl
 
 6. In the **New Cluster** page, create a new cluster with the following settings:
     - **Name**: *Your name's* cluster (*default*)
+    - **Policy**: Unrestricted
     - **Cluster Mode**: Single Node
     - **Access mode**: Single user
     - **Single user access**: *Your user ID*

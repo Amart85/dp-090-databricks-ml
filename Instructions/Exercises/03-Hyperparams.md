@@ -38,7 +38,7 @@ You can create a workspace interactively in the Azure portal or use one you alre
 5. After the repo has been cloned, enter the following commands to change to the folder for this lab and run the **setup.ps1** script it contains:
 
     ```
-    cd dp-090/Allfiles/labs/04
+    cd dp-090/Allfiles/labs/03
     ./setup.ps1
     ```
 
